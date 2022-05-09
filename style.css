@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+
+  /* Created with https://www.css-gradient.com */
+  background: #0c577f;
+  background: -webkit-linear-gradient(top left, #42a6db, #8cd2d8);
+  background: -moz-linear-gradient(top left, #42a6db, #8cd2d8);
+  background: linear-gradient(to bottom right, #42a6db, #8cd2d8);
+  color: white;
+}
+
+.location,
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temperature {
+  flex-direction: column;
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.degree-section span {
+  margin: 10px;
+}
+
+.degree-section h2 {
+  font-size: 40px;
+}
+
+.weatherImg {
+  height: 100px;
+  width: 100px;
+}
